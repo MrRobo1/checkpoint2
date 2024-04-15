@@ -1,0 +1,32 @@
+{
+  "name": "checkpoint2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "ts-node-dev --exit-child --watch src --poll src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRobo1/checkpoint2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrRobo1/checkpoint2/issues"
+  },
+  "homepage": "https://github.com/MrRobo1/checkpoint2#readme",
+  "dependencies": {
+    "@apollo/server": "^4.10.2",
+    "@types/node": "^20.12.7",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "ts-node-dev": "^2.0.0",
+    "type-graphql": "^2.0.0-beta.6",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.4.5"
+  }
+}
